@@ -1,0 +1,14 @@
+numpy
+pillow
+matplotlib
+opencv-python-headless
+tqdm
+scipy
+open3d>=0.17
+vedo
+torch
+torchvision
+torchaudio
+transformers>=4.44.0
+accelerate>=0.33.0
+# GPU via pip: install the CUDA wheel for torch first (e.g., cu121), then pip install -r requirements.txt --no-deps.
