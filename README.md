@@ -89,7 +89,7 @@ Natural-language control will be added using vision-language models (VLMs) such 
 
 - MVP (v0.1): Isaac Sim scene → depth/point cloud → “find X” → shortest path to target volume.
 
-- v0.2: Echo depth (sim), simple SLAM, collision avoidance, success metrics (Success Rate, SPL, time-to-goal).
+- v0.2: Echo depth (sim), simple SLAM, collision avoidance, success metrics (Success Rate, SPL, time-to-goal). IL/RL.
 
 - v0.3: Domain randomization + robustness; export to VEX V5 (real-world pilot); natural-language control (VLM) integration.
 
@@ -110,6 +110,22 @@ Natural-language control will be added using vision-language models (VLMs) such 
 - Nav → ROS2 Nav2 or learned policy in Isaac Lab
 
 - Language → Vision-language model (VLM) for goal parsing (“find the chair”) and target selection
+
+## Reinforcement Learning and Imitation Learning
+
+Imitation Learning is often used to bootstrap policies which are the fine-tuned by reinforcement learning. Together they power state-of-the-art agents (e.g., AlphaStar, RT-2 robots). These processes will be investigated.
+
+### How Imitation Learning and Reinforcement Learning can complement each other
+
+- Start with expert demonstrations.
+- Use imitation learning (behavioral cloning, DAgger, GAIL) to quickly build an initial policy.
+- Then refine that policy with reinforcement learning (PPO, Actor–Critic, etc.), which goes beyond imitation by optimizing rewards.
+- Finally, get a fine-tuned policy ready for deployment (e.g., robot navigation).
+
+<p align="center">
+  <img src="assets/IL-RL.png" alt="Imitation Learning and Reinforcement Learning" width="820">
+  <br/><sub><i>"Imitation Learning and Reinforcement Learning informing Policy"</i></sub>
+</p>
 
 ---
 
