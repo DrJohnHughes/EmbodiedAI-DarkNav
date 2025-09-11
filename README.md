@@ -127,6 +127,8 @@ Imitation Learning is often used to bootstrap policies which are the fine-tuned 
   <br/><sub><i>"Imitation Learning and Reinforcement Learning informing Policy"</i></sub>
 </p>
 
+
+
 ---
 
 ### Repo structure
@@ -144,7 +146,10 @@ embodiedai-darknav/
 │  └─ policies/
 ├─ assets/
 │  ├─ DarkNav.png
-│  └─ DarkNav_labeled.png
+│  ├─ DarkNav_labeled.png
+│  ├─ IL-RL.png
+│  ├─ IL-RL_dark.png
+│  └─ RoomPlan.png
 ├─ environment-cpu.yml
 ├─ environment-gpu.yml
 ├─ requirements.txt
