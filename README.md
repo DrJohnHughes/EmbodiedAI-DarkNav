@@ -149,6 +149,7 @@ embodiedai-darknav/
 │  ├─ DarkNav_labeled.png
 │  ├─ IL-RL.png
 │  ├─ IL-RL_dark.png
+│  ├─ PointCloud.png
 │  └─ RoomPlan.png
 ├─ environment-cpu.yml
 ├─ environment-gpu.yml
