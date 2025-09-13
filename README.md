@@ -6,10 +6,14 @@ Language-guided object navigation **without RGB** to locate targets in unseen sp
 
 > **Status:** WIP (research plan + first notebooks). Sim in Isaac Sim/Lab first; VEX V5 hardware later.
 
+### 90s Loom demo
+[![▶ Loom Demo)](assets/demos/dark-nav-thumb.png)](https://www.loom.com/share/416bc8c84b3d45f3a7cf5c5ee495a37e)
+
+##### "Find your way to the chair"
 <p align="center">
   <img src="assets/DarkNav_labeled.png" alt="DarkNav depth-map scene" width="820">
-  <br/><sub><i>"Find your way to the chair"</i></sub>
 </p>
+
 
 ---
 
@@ -150,7 +154,10 @@ embodiedai-darknav/
 │  ├─ IL-RL.png
 │  ├─ IL-RL_dark.png
 │  ├─ PointCloud.png
-│  └─ RoomPlan.png
+│  ├─ RoomPlan.png
+│  └─ demos/
+│      ├─ dark-nav-80s.mp4
+│      └─ dark-nav-thumb.png
 ├─ environment-cpu.yml
 ├─ environment-gpu.yml
 ├─ requirements.txt
